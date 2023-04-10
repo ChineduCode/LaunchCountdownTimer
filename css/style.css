@@ -23,33 +23,33 @@ main h2 {
   letter-spacing: 2px;
   text-align: center;
 }
-main .time {
+main .countdown {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 4em;
   z-index: 2;
 }
-main .time .container {
+main .countdown .container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main .time .container .count {
+main .countdown .container .count {
   background-color: hsl(236, 21%, 26%);
   margin: 0 7px 1em;
   border-radius: 5px;
-  font-size: 35px;
-  font-weight: 900;
+  font-size: 30px;
+  font-weight: bold;
   color: hsl(345, 95%, 68%);
   box-shadow: 0 4px 0 hsl(234, 17%, 12%);
-  height: 60px;
-  width: 65px;
+  height: 65px;
+  width: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-main .time .container .text {
+main .countdown .container .text {
   font-size: 13px;
   color: hsl(237, 18%, 59%);
 }
@@ -89,10 +89,10 @@ footer .socialmedia-icons span img:active {
   main {
     margin-top: 6em;
   }
-  main .time .container .count {
-    width: 120px;
-    height: 100px;
-    font-size: 70px;
+  main .countdown .container .count {
+    width: 130px;
+    height: 120px;
+    font-size: 60px;
     margin: 0 20px 20px;
     box-shadow: 0 8px 0 hsl(240, 13%, 6%);
   }

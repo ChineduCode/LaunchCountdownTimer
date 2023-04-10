@@ -9,4 +9,4 @@
 Users should be able to:
 
 - See hover states for all interactive elements on the page
-- See a live countdown timer that ticks down every second (started the count at 14 days)
+- See a live countdown timer that ticks down every second
